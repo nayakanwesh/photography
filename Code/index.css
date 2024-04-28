@@ -1,0 +1,459 @@
+#Main-Container
+{
+width: 100%;
+overflow-x:hidden;
+overflow: hidden;
+display: flex;
+flex-direction:column;
+flex-wrap: wrap;
+position:;
+}
+#Home-Page
+{
+    flex-direction: row;
+    position:relative;
+    background-image: url(../photo/pic-3.avif); 
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100vh;
+}
+
+
+ #Home-Page a{
+    text-decoration: none;
+    color:rgb(7, 7, 7);
+    cursor: pointer;
+    font-weight: 600;
+ }
+ #Home-Page a:hover
+ {
+    text-decoration: underline;
+    color: aqua;
+    transition: all;
+ }
+ #Home-Page p{
+    margin-top: 280px;
+    margin-left: 60%;
+    font-family: serif;
+    font-size: 50px;
+    font-weight:bolder;
+    color:blueviolet;
+    align-items:center;
+    justify-content:center;
+ }
+ #Home-Page .btn
+ {
+    margin-left: 75%;
+    margin-top: 20px;
+ }
+ #Home-Page .btn:hover{
+       transform: scale(1.1);
+       transition: all .3s;
+ }
+
+
+/* Galary */
+
+ #Galary{
+   background-image:linear-gradient(rgb(238, 222, 142),orange);
+    width:100%;
+    height:110vh;
+    
+
+} 
+.project{
+    
+    margin-top:50px;
+    height:100vh;
+
+  
+    
+}
+.project-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-template-rows: repeat(4,150px);
+    padding: 50px;
+    gap: 20px;
+}
+.project-box .item
+{
+    border: 2px solid rgb(248, 106, 5);
+    border-radius: 20px;
+}
+.project-box .items1{
+    background-image:url(../photo/img1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    grid-row: 1/3;
+
+    
+}
+.project-box .items2{
+    background-image:url(../photo/img2.jpeg);
+    background-size: contain;
+    background-position: center;
+    color:white;
+    text-align: center;
+    justify-content: center;
+     grid-column:2/3 ;
+
+    
+}
+.project-box .items3{
+    background-image:url(../photo/img4.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    grid-column: 3/4;
+     grid-row:1/3;
+
+    
+}
+.project-box .items4{
+    background-image:url(../photo/img5.jpeg);
+    background-size: cover;
+    background-position: center;
+    color:white;
+    text-align: center;
+    justify-content: center;
+     grid-column: 2/3;
+     grid-row: 2/4;
+
+    
+}
+.project-box .items5{
+    background-image:url(../photo/img6.jpeg);
+    background-size: cover;
+    background-position: center;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    grid-column: 3/4 ;
+    grid-row: 3/5;
+
+    
+}
+.project-box .items6{
+    background-image:url(../photo/img7.jpeg);
+    background-size: cover;
+    background-position: center;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row: 3/5;
+
+    
+}
+.project-box .items7{
+    background-image:url(../photo/img8.jpeg);
+    background-size: cover;
+    background-position: center;
+    color:white;
+    text-align: center;
+    justify-content: center;
+     grid-column: 2/3;
+
+    
+}
+ .items1 p,.items6 p,.items4 p,.items5 p,.items3 p{
+    color:white;
+    position: ;
+    top: 150px;
+    font-size: 40px;
+    
+}
+.items7 p,.items2 p{
+    color: white;
+    position: relative;
+    top: 50px;
+    font-size: 40px;
+}
+.project-box .item:hover{
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+.project h3{
+    position: relative;
+    left:650px
+}
+
+/* Testimonial */
+
+#test{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+#test h2{
+    position: absolute;
+    font-weight: 800;
+    margin-top: 100px;
+   
+
+}
+#test #carouselExampleControls{
+    position:relative;
+    margin-top:240px;
+    
+}
+#test #carouselExampleControls .carousel-inner
+{
+    margin-left: 210px;
+}
+#test #carouselExampleControls .carousel-inner .carousel-item{
+    position: relative;
+}
+#test #carouselExampleControls .carousel-inner .carousel-item:hover{
+   box-shadow: 2px 2px 2px rgb(79, 76, 76);
+   transition-duration: .3s;
+   border-radius: 1px dashed black;
+
+   
+}
+#test #carouselExampleControls .carousel-inner p{
+    position:relative;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Single photo with heading */
+#single
+{
+   width: 100%;
+   height: 100vh; 
+   background-image:url(../photo/img9.jpeg);
+   background-size: cover;
+    background-position: center;
+
+}
+#single .about{
+   width: 1000px;
+   height: 500px;
+   position: relative;
+   margin-top: 300px;
+   margin-left: 280px;
+}
+
+#single .about p{
+    position: relative;
+    font-weight: 900;
+    font-family: cursive;
+    color: aliceblue;
+    text-shadow: 1rem;
+    font-size: 50px;
+    transition: all;
+}
+#single .about p:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    background: blur(4px);
+    
+}
+
+/* IMage Slider */
+
+#Main-Image-container{
+    width: 100%;;
+    height: 100vh;
+    background-image: url(../photo/white2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#Main-Image-container h2{
+    position:absolute;
+    margin-top: 180px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+    color:orangered;
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+.Slider{
+
+    
+    width: 950px;
+    display: flex;
+    overflow-x: scroll;
+}
+.Slider #imgContainer
+{
+    position:;
+    width:100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+
+}
+.Slider #imgContainer img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+.Slider #imgContainer img:hover{
+   filter: grayscale(0); 
+   cursor: pointer;
+   transform: scale(1.1);
+}
+.Slider::-webkit-scrollbar
+{
+    position: ;
+    display: none;
+}
+.Slider-wrap{
+    width:100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+    margin-top: 350px;
+
+}
+#backBtn,#nextBtn{
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+}
+.footer .links{
+    flex-basis: 37%;
+height: 50vh;
+    margin-left: 70px;
+    margin-top: 10px;
+    
+
+}
+.footer .links ul .menu-item{
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+.footer .links h3{
+    margin-top: 100px;
+    margin-left: 18px;
+    color:coral;
+}
+.footer .links .menu i{
+    color: rgb(60, 0, 255);
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: 45px;
+
+}
+.footer .links .menu a{
+    text-decoration: none;
+    color:antiquewhite;
+    font-size: 35px;
+    margin-left: 15px;
+    margin-right:15px ;
+    margin-top: 35px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.footer .links .menu a:hover{
+    transform: scale(1.1);
+}
+.footer .links .copyright{
+    margin-top: 30%;
+    color: white;
+}
+.footer .links .copyright span{
+    color: orangered;
+}
+.footer .infm{
+    flex-basis: 64%;
+    height: 50vh;
+
+
+}
+.footer .infm .wow{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.footer .infm .wow h4{
+    color: coral;
+    margin-left: 33px;
+}
+.footer .infm .wow a{
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.footer .infm .wow a:hover{
+    color: red;
+
+}
+.footer .infm .wow .order1,.order2,.order3 ul{
+    text-align: left;
+}
+
+.footer .infm .wow .order1 ul li{
+    text-decoration: none;
+    margin-top: 20px;
+    color: white;
+    text-align: left;
+    list-style-type: none;
+
+}
+.footer .infm .wow .order2 ul li{
+    text-decoration: none;
+    margin-top: 20px;
+    color: white;
+    text-align: left;
+    list-style-type: none;
+
+}
+.footer .infm .wow .order3 ul li{
+    text-decoration: none;
+    margin-top: 20px;
+    color: white;
+    text-align: left;
+    list-style-type: none;
+
+}
+.footer .infm .wow .order2{
+    margin-left: 60px;
+    
+
+}
+.footer .infm .wow .order3{
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
